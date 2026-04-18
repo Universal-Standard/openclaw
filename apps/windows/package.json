@@ -1,0 +1,12 @@
+{
+  "name": "@openclaw/windows-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "OpenClaw Windows desktop scaffold",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./scripts/openclaw-windows.ps1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

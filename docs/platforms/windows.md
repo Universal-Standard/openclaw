@@ -14,7 +14,7 @@ stable path and recommended for the full experience — the CLI, Gateway, and
 tooling run inside Linux with full compatibility. Native Windows works for
 core CLI and Gateway use, with some caveats noted below.
 
-Native Windows companion apps are planned.
+An early Windows desktop companion scaffold is now available in `apps/windows`.
 
 ## WSL2 (recommended)
 
@@ -237,5 +237,9 @@ Full guide: [Getting Started](/start/getting-started)
 
 ## Windows companion app
 
-We do not have a Windows companion app yet. Contributions are welcome if you want
-contributions to make it happen.
+The repository now includes an early Windows desktop scaffold at `apps/windows`.
+It is intentionally minimal and currently launches a native window around the
+local OpenClaw Control UI.
+
+For production today, prefer the Gateway on WSL2 and use the Windows scaffold as
+an optional local shell.
